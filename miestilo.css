@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #cce6ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #003366;
+    margin-top: 20px;
+  }
+  
+  /* Imagen principal */
+  .imagen {
+    width: 250px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+  }
+  
+  .imagen:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Panel de información oculto */
+  .panel {
+    display: none;
+    background-color: white;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    position: relative;
+  }
+  
+  .panel h2 {
+    color: #004c99;
+  }
+  
+  .panel p {
+    font-size: 1em;
+    color: #333;
+    margin: 15px 0;
+  }
+  
+  /* Imagen dentro del panel */
+  .imagen2 {
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Botón de cierre */
+  #cerrar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #cerrar:hover {
+    background-color: #004c99;
+  }
+  
